@@ -1,22 +1,4 @@
 """
-UNDERSTANDING LANG-GRAPH
-First: What LangGraph actually is
-
-LangGraph (by LangChain) is a framework for building stateful, multi-step LLM workflows.
-
-Think of it like this:
-
-Concept	Mental Model
-Function calls	One-off execution
-Chains (LangChain)	Linear pipeline
-LangGraph	State machine with memory + branching
-
-Lang graph = Nodes + States + Edges
-
-State → shared memory (dictionary)
-Nodes → functions that modify state
-Edges → control flow (who runs next)
-
 
 """
 
