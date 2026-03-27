@@ -39,4 +39,19 @@ edge -> connection and the flow and order of tasks/nodes to execute
 |__> defines the flow of execution
 
 
+Langsmith -> A platform to debug, monitor, evaluate, and improve LLM applications
+With Langsmith - AI becomes debuggable system ✅
+A platform to debug, monitor, evaluate, and improve LLM applications
 
+
+# Setup 
+set up .env with the following parameters
+GROQ_API_KEY = # your api key
+LANGSMITH_API_KEY = # your api key
+LANGSMITH_TRACING=true
+LANGSMITH_ENDPOINT=https://api.smith.langchain.com
+LANGSMITH_PROJECT= #project name 
+
+one can also use the command uv sync to install all the necessary dependencies 
+# Usage
+To use LangGraph, you can follow the examples provided in the Jupyter notebooks. These examples demonstrate how to create nodes, define states, and connect them with edges to build complex workflows. You can also refer to the documentation for more detailed information on the available functions and features.       
