@@ -54,4 +54,9 @@ LANGSMITH_PROJECT= #project name
 
 one can also use the command uv sync to install all the necessary dependencies 
 # Usage
-To use LangGraph, you can follow the examples provided in the Jupyter notebooks. These examples demonstrate how to create nodes, define states, and connect them with edges to build complex workflows. You can also refer to the documentation for more detailed information on the available functions and features.       
+To use LangGraph, you can follow the examples provided in the Jupyter notebooks. These examples demonstrate how to create nodes, define states, and connect them with edges to build complex workflows. You can also refer to the documentation for more detailed information on the available functions and features.   
+
+# Human in the loop example
+This example demonstrates how to use the interrupt function to pause the execution of the graph and wait for user input before resuming. The example uses a simple chatbot that can get stock prices and buy stocks based on user input. The chatbot will ask for user approval before buying stocks, and the user can approve or decline the purchase. The state of the graph is saved in memory, allowing for a seamless interaction between the chatbot and the user.
+
+Refer to the humanintheloop.py file for the complete code of the example.
